@@ -23,7 +23,7 @@ function updateClock(){
     ampmEl.innerText = ampm;
     setTimeout(()=> {
         updateClock()
-    },1000);
+    }, 1000);
 }
 
-updateClock()
+updateClock();
